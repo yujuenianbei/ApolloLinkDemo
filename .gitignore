@@ -6,7 +6,3 @@ build/
 logs
 node_modules/
 npm-debug.*
-release
-cordova/platforms
-cordova/plugins
-cordova/www
