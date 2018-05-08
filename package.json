@@ -13,8 +13,7 @@
 		"type": "git"
 	},
 	"scripts": {
-		"env-dev": "REACT_APP_ENV='dev' REACT_APP_TYPE='web'",
-		"dev": "yarn env-dev react-scripts start"
+		"dev": "react-scripts start"
 	},
 	"dependencies": {
 		"apollo-cache-inmemory": "^1.1.0",
