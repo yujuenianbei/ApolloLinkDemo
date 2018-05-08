@@ -1,0 +1,38 @@
+{
+	"name": "AppDemo",
+	"productName": "App Demo",
+	"version": "1.0.0",
+	"description": "Apollo Client",
+	"author": "Martin Adams <heymartinadams@users.noreply.github.com>",
+	"contributors": [],
+	"private": false,
+	"license": "MIT",
+	"homepage": "./",
+	"repository": {
+		"url": "https://github.com/ConsciousApps/demo.git",
+		"type": "git"
+	},
+	"scripts": {
+		"env-dev": "REACT_APP_ENV='dev' REACT_APP_TYPE='web'",
+		"dev": "yarn env-dev react-scripts start"
+	},
+	"dependencies": {
+		"apollo-cache-inmemory": "^1.1.0",
+		"apollo-client": "^2.0.2",
+		"apollo-link": "^1.0.0",
+		"apollo-link-http": "^1.1.0",
+		"apollo-link-state": "^0.4.1",
+		"apollo-link-ws": "^1.0.0",
+		"apollo-utilities": "^1.0.1",
+		"graphql-tag": "^2.5.0",
+		"react": "^16.0.0",
+		"react-apollo": "^2.0.0",
+		"react-dom": "^16.0.0",
+		"validator": "^9.0.0"
+	},
+	"devDependencies": {
+		"graphql": "^0.12.3",
+		"react-scripts": "^1.1.1",
+		"subscriptions-transport-ws": "^0.9.0"
+	}
+}
