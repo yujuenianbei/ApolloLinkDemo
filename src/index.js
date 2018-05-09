@@ -17,9 +17,9 @@ import Start from './Start'
 
 
 // GRAPHQL
-const httpLink = new HttpLink({ uri: 'https://afgen.us/' })
+const httpLink = new HttpLink({ uri: 'https://__SERVER_URL__' })
 const wsLink = new WebSocketLink({
-	uri: 'wss://afgen.us/',
+	uri: 'wss://__SERVER_URL__',
 	options: { reconnect: true }
 })
 const link = split(
