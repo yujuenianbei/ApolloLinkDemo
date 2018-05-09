@@ -34,5 +34,5 @@ const userQuery = gql`
 
 export default compose(
 	// graphql(userQuery, { props: ({ data: { refetch, user } }) => ({ refetch, user }) })
-	graphql(userQuery, { options: { fetchPolicy: 'network-and-cache' } })
+	graphql(userQuery, { options: { fetchPolicy: 'cache-and-network' } })
 )(Start)
